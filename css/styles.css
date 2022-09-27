@@ -17,6 +17,8 @@ body {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -34,6 +36,11 @@ a {
   clip: rect(0 0 0 0);
 }
 /*header*/
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .nav {
   background-color: var(--color-fone);
 }
@@ -79,17 +86,25 @@ nav .current {
 /*hero*/
 .hero {
   background-color: var(--color-backdark);
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
+
   text-transform: uppercase;
   letter-spacing: 0.06em;
   line-height: 1.4;
   color: var(--color-fone);
 }
 .hero-button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -97,8 +112,7 @@ nav .current {
   line-height: 1.9;
   color: var(--color-fone);
   background-color: var(--color-active);
-  border: none;
-  border-radius: 4px;
+
   cursor: pointer;
 }
 .hero-button:hover {
@@ -107,20 +121,33 @@ nav .current {
 .hero-button:focus {
   background-color: var(--color-hero);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*Секція 2*/
 .benefits-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--color-primary);
 }
 .benefits-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   line-height: 1.7;
   color: var(--color-second);
 }
 
 /*title section*/
 .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -133,6 +160,9 @@ nav .current {
   background-color: var(--color-background);
 }
 .name {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -140,12 +170,21 @@ nav .current {
   color: var(--color-primary);
 }
 .profy {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   line-height: 19px;
   text-align: center;
   color: var(--color-second);
 }
 /*list button*/
+.works-button-list {
+  margin-bottom: 50px;
+}
 .works-button {
+  padding: 6px 22px;
+  min-width: 216px;
+
   background-color: var(--color-background);
   font-family: "Roboto";
   font-weight: 500;
@@ -169,18 +208,27 @@ nav .current {
 /*Секція Приклади робіт*/
 
 .works-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--color-primary);
 }
 .works-link {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   line-height: 1.9;
   color: var(--color-second);
 }
 
 /*footer*/
 .bottom {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
   background-color: var(--color-backdark);
 }
 .logo-bottom {
