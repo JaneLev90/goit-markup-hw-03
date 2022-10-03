@@ -61,6 +61,9 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
+.nav{
+  border-bottom: 1px solid #eeeeee; 
+}
 .main-nav {
   display: flex;
   align-items: center;
